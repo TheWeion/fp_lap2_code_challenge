@@ -1,4 +1,4 @@
-const db = require('./dbConfig/init');
+const db = require('../dbConfig/init');
 
 class Post {
 	constructor(data) {
@@ -49,3 +49,5 @@ class Post {
 	};
 
 };
+
+module.exports = Post;

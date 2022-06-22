@@ -1,4 +1,4 @@
-const Post = require('./models/post');
+const Post = require('../models/post');
 
 async function index(res) {
 	try {
@@ -26,3 +26,5 @@ async function create(req, res) {
 		res.status(422).json(err);
 	};
 };
+
+module.exports = { index, show, create };
