@@ -1,1 +1,96 @@
-# fp_lap2_code_challenge
+# Lap 2 Coding Challenge
+
+## Requirements
+- Your app should have a browser client allowing users to write a post with a title, a pseudonym and a body
+- No login should be required to create a post or visit a post
+- When a user hits 'publish', the post should be stored in a database and the client redirected to a show path
+- The user should be able to access their post using that show path even after a server restart
+- Edit and delete functionality is not required
+
+## Installation & Usage
+
+### Installation
+
+* Clone or download the repo.
+* Open terminal and navigate to `fizzbuzz` folder.
+* Run `npm install` to install dependencies.
+
+### Usage
+
+* Run `npm start` to launch server.
+* Run `npm test` to launch test suite.
+* Run `npm seedDev` to seed Dev Database.
+
+## Changelog
+
+### client/index.html
+
+[x] Initial Commit.
+
+### client/static/css/index.css
+
+[x] Reorganised folder structure.
+
+[x] Initial Commit.
+
+### client/static/js/index.js
+
+[x] Reorganised folder structure.
+
+[x] Initial Commit.
+
+### api/controllers/posts.js
+
+[x] Bulit Controller for posts.
+
+### api/models/post.js
+
+[x] Bulit Model for posts.
+
+### api/routes/posts.js
+
+[x] Bulit Route for posts.
+
+### api/server.js
+
+[x] Implemented Express server.
+
+### db/posts.sql
+
+[x] Constructed database.
+
+### docker-compose.yaml
+
+[x] Created database for prod environment.
+
+### docker-compose-dev.yaml
+
+[x] Created database for dev environment.
+
+### api/dbConfig/dev_seeds.sql
+
+[x] Created database for dev environment.
+
+### api/dbConfig/init.js
+
+[x] Implemented DB connection.
+
+### api/dbConfig/seedDev.js
+
+[x] Implemented dev seed constructiuon
+
+### api/package.json
+[x] Added seedDev script to populate dev environment on build.
+
+[x] Initialised NPM with required packages.
+
+### .gitignore
+
+[x] Added .gitignore.
+
+### api/.gitignore
+
+[x] Added .gitignore.
+
+## Bugs
+
