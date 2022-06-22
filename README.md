@@ -21,6 +21,24 @@
 * Run `npm test` to launch test suite.
 * Run `npm seedDev` to seed Dev Database.
 
+### Bash Scripts
+
+## `bash _scripts/startDev.sh`
+- Starts client, api, and DB services.
+- runs DB migrations.
+- Seeds DB for the dev environment.
+- Serves the client-side on localhost:8080 (127.0.0.1:8080).
+- Serves the API on localhost:3000 (127.0.0.1:3000).
+
+## `bash _scripts/teardown.sh`
+- Stops all running services.
+- Removes the containers.
+- Removes the Volumes.
+- Bang and the dev envionment is gone!.
+
+## `bash _scripts/stop.sh`
+- Stops the client, api, and DB services.
+
 ## Changelog
 
 ### client/index.html
@@ -77,9 +95,22 @@
 
 ### api/dbConfig/seedDev.js
 
-[x] Implemented dev seed constructiuon
+[x] Implemented dev seed construction.
+
+### _scripts/startDev.sh
+
+[x] Implemented bash script.
+
+### _scripts/teardown.sh
+
+[x] Implemented bash script.
+
+### _scripts/stop.sh
+
+[x] Implemented bash script.
 
 ### api/package.json
+
 [x] Added seedDev script to populate dev environment on build.
 
 [x] Initialised NPM with required packages.
