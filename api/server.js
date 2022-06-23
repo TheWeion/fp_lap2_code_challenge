@@ -9,6 +9,6 @@ server.use(express.json());
 
 server.use('/post', postRoutes);
 
-server.get('/', (req, res) => res.send('Welcome to our post repository!'));
+server.get('/', (_req, res) => res.send('Welcome to our post repository!'));
 
 module.exports = server;

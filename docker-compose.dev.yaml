@@ -33,7 +33,7 @@ services:
     environment:
       - POSTGRES_DB=teleposter
       - POSTGRES_USER=futureproof
-      - POSTGRES_PASS=supersecurepassword
+      - POSTGRES_PASSWORD=supersecurepassword
 volumes: 
   dbdata:
 networks:

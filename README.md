@@ -59,17 +59,23 @@
 
 ### api/controllers/posts.js
 
-[x] Bulit Controller for posts.
+[x] Set `req` param as optional.
+
+[x] Built Controller for posts.
 
 ### api/models/post.js
 
-[x] Bulit Model for posts.
+[x] Built Model for posts.
 
 ### api/routes/posts.js
 
-[x] Bulit Route for posts.
+[x] Corrected routing issue for `show` controller.
+
+[x] Built Route for posts.
 
 ### api/server.js
+
+[x] Set `req` param as optional.
 
 [x] Implemented Express server.
 
@@ -82,6 +88,8 @@
 [x] Created database for prod environment.
 
 ### docker-compose-dev.yaml
+
+[x] Changed `POSTGRES_PASS` to `POSTGRES_PASSWORD` to fix DB authentication defect.
 
 [x] Created database for dev environment.
 
@@ -110,6 +118,8 @@
 [x] Implemented bash script.
 
 ### api/package.json
+
+[x] Added `--legacy-watch` argument to `dev` script so DB can be updated in the background.
 
 [x] Added seedDev script to populate dev environment on build.
 

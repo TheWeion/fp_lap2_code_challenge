@@ -1,6 +1,6 @@
 const Post = require('../models/post');
 
-async function index(req, res) {
+async function index(_req, res) {
 	try {
 		const posts = await Post.all;
 		res.status(200).json(posts);
@@ -9,7 +9,7 @@ async function index(req, res) {
 	};
 };
 
-async function show (req, res) {
+async function show(req, res) {
 	try {
 		const post = await Post.findById(req.params.id);
 		res.status(200).json(post);

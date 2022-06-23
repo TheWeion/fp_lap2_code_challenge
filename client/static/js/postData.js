@@ -21,13 +21,10 @@ function postData(e) {
     fetch('http://localhost:3000/posts/Add', options)
         .then(r => r.json())
         .catch(console.warn);
-
-
+        
     e.target['title'].value = '';
     e.target['name'].value = '';
     e.target['story'].value = '';
- 
+};
 
-}
-
-module.exports = { postData }
+module.exports = postData;

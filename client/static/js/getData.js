@@ -4,8 +4,8 @@ async function getData() {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    return data
-}
+    return data;
+};
 
 async function getAllPosts() {
 
@@ -13,6 +13,6 @@ async function getAllPosts() {
 
     postsData = await getData();
 
-}
+};
 
-module.exports ={ getAllPosts }
+module.exports = getAllPosts;
