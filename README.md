@@ -12,7 +12,7 @@
 ### Installation
 
 * Clone or download the repo.
-* Open terminal and navigate to `fizzbuzz` folder.
+* Open terminal and navigate to `api` folder.
 * Run `npm install` to install dependencies.
 
 ### Usage
