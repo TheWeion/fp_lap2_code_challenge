@@ -1,0 +1,108 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#E6E6E3
+
+}
+
+div,
+main {
+    display:block;
+}
+
+
+.text-wrap {
+    max-width: 732px;
+    margin: 0 auto;
+}
+
+.text-page {
+    position: relative;
+    padding: 21px 0;
+}
+
+
+.post {
+    display:block;
+    margin: 25px;
+}
+
+input {
+ border: none;
+}
+
+
+#title,
+#story,
+#name {
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 32px;
+    margin: 3px 21px 12px;
+    line-height: 34px;
+    color: #E6E6E3;
+    /* color: rgba(0,0,0,.60); */
+}
+
+
+#name {
+
+    font-size: 20px;
+   
+}
+
+
+#story {
+
+    font-size: 23px;
+   
+}
+
+aside{
+    display: block;
+}
+
+.article_button {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    right: 0;
+    margin: 46px 0 0 376px; 
+}
+
+.account {
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    /* color: #000; */
+    margin: 0 0 15px;
+    white-space: pre-wrap;
+}
+
+button {
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    /* color: #000; */
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 16px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    margin: 0 0 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+@media (max-width: 960px) {
+.article_button {
+    position: static;
+    width: auto;
+    margin: 30px 21px;
+    padding: 1px 0;
+}
+}

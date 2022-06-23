@@ -135,3 +135,4 @@
 
 ## Bugs
 
+[ ] **client/static/js/postData.js** - BUG: Percent-encoded output instead of id value e.g 1 -> %7B1%7D (if id is manually assigned then selected post will show)
